@@ -1,0 +1,27 @@
+/* src/components/ImageCard.module.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    position: relative; /* Để căn chỉnh tiêu đề chính xác */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    padding: 10px;
+    text-align: center; /* Căn giữa văn bản */
+    background: #f4f4f4;
+    color: black; /* Đổi màu chữ thành đen */
+    font-weight: bold; /* In đậm chữ */
+    position: absolute; /* Để đặt tiêu đề ở vị trí cố định */
+    bottom: 0; /* Đặt tiêu đề ở phía dưới cùng của thẻ card */
+    width: 100%;
+    box-sizing: border-box; /* Để padding không làm rộng thêm phần tử */
+  }
+  
